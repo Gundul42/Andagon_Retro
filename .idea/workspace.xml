@@ -4,17 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22360060-a32b-4b60-b279-75194791c37f" name="Changes" comment="" />
+    <list default="true" id="22360060-a32b-4b60-b279-75194791c37f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/andagon/AutoBaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/andagon/RMCcheckinGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/andagon/RetroMyandagonCom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/andagon/RMCcheckinGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/andagon/RetroMyandagonComTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2MsTUzNX5FbWPzTgK0IHmlpcUjQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,9 +47,109 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.andagon" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RetroMyandagonComTest">
+    <configuration name="RMCcheckinGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Andagon_Retro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.andagon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.andagon" />
+      <option name="MAIN_CLASS_NAME" value="com.andagon.RMCcheckinGeneratorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RMCcheckinGeneratorTest.closeWelcomeScreen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Andagon_Retro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.andagon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.andagon" />
+      <option name="MAIN_CLASS_NAME" value="com.andagon.RMCcheckinGeneratorTest" />
+      <option name="METHOD_NAME" value="closeWelcomeScreen" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RMCcheckinGeneratorTest.iterateTroughQuestionsForward" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Andagon_Retro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.andagon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.andagon" />
+      <option name="MAIN_CLASS_NAME" value="com.andagon.RMCcheckinGeneratorTest" />
+      <option name="METHOD_NAME" value="iterateTroughQuestionsForward" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RetroMyandagonComTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Andagon_Retro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.andagon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.andagon" />
+      <option name="MAIN_CLASS_NAME" value="com.andagon.RetroMyandagonComTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RetroMyandagonComTest.checkinGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Andagon_Retro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.andagon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.andagon" />
+      <option name="MAIN_CLASS_NAME" value="com.andagon.RetroMyandagonComTest" />
+      <option name="METHOD_NAME" value="checkinGenerator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RetroMyandagonComTest" />
+        <item itemvalue="JUnit.RetroMyandagonComTest.checkinGenerator" />
+        <item itemvalue="JUnit.RMCcheckinGeneratorTest.iterateTroughQuestionsForward" />
+        <item itemvalue="JUnit.RMCcheckinGeneratorTest" />
+        <item itemvalue="JUnit.RMCcheckinGeneratorTest.closeWelcomeScreen" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,5 +171,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Andagon_Retro$com_andagon_in_Andagon_Retro.ic" NAME="com.andagon in Andagon_Retro Coverage Results" MODIFIED="1678633829219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.andagon.*</FILTER>
+    </SUITE>
   </component>
 </project>
