@@ -24,7 +24,7 @@ public class RMCcheckinGenerator extends AutoBaseClass
 
 	RMCcheckinGenerator()
 	{
-		this._home = "https://retro.myandagon.com/checkingenerator";
+		this.home = "https://retro.myandagon.com/checkingenerator";
 	}
 
 	public Boolean closeWelcome()
@@ -82,11 +82,12 @@ public class RMCcheckinGenerator extends AutoBaseClass
 		return clickWebElement(_checkOut);
 	}
 
-	public String getMessageNumber()
+	public int getMessageNumber()
 	{
 		if (isThereElement(_msgNumber))
-			return driver.findElement(_msgNumber).getText();
-		return null;
+			return Integer.parseInt(driver.findElement(_msgNumber).getText().
+							replaceAll("[^0-9]", ""));
+		return (-1);
 	}
 
 	public String getMessageText()

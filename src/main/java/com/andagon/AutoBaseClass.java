@@ -10,14 +10,14 @@ import org.openqa.selenium.support.ui.Wait;
 
 import java.time.Duration;
 
-public class AutoBaseClass
+public abstract class AutoBaseClass
 {
 	protected WebDriver			driver = new ChromeDriver();
 	protected Wait<WebDriver>	wait = new FluentWait<WebDriver>(driver)
 								.withTimeout(Duration.ofSeconds(20L))
 								.pollingEvery(Duration.ofSeconds(1L));
 
-	protected String				_home = null;
+	protected String			home = null;
 
 	protected Boolean	clickWebElement(By element)
 	{
@@ -51,12 +51,12 @@ public class AutoBaseClass
 
 	public void callHome()
 	{
-		driver.get(_home);
+		driver.get(home);
 	}
 
 	public String getHomeUrl()
 	{
-		return _home;
+		return home;
 	}
 
 }

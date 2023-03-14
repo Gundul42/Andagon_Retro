@@ -11,7 +11,7 @@ public class RetroMyandagonCom extends AutoBaseClass
 
 	RetroMyandagonCom()
 	{
-		this._home = "https://retro.myandagon.com";
+		this.home = "https://retro.myandagon.com";
 	}
 
 	public Boolean	clickCheckin()

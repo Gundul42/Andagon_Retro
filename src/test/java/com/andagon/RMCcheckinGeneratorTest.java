@@ -23,11 +23,9 @@ class RMCcheckinGeneratorTest
 		int	nbr = 0;
 
 		Assert.assertTrue(underTest.closeWelcome());
-		while (nbr < Integer.parseInt(underTest.getMessageNumber().
-				replaceAll("[^0-9]", "")))
+		while (nbr < underTest.getMessageNumber())
 		{
-			nbr = Integer.parseInt(underTest.getMessageNumber().
-					replaceAll("[^0-9]", ""));
+			nbr = underTest.getMessageNumber();
 			Assert.assertTrue(underTest.clickRightArrow());
 		}
 		Assert.assertTrue(underTest.isEndOfQuestions());
